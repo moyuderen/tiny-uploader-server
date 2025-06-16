@@ -247,3 +247,5 @@ axios.get(`${BASE_URL}/merge`, {
 有值时来模拟返回接口错误,返回`http`请求status状态码为`500`; 正常返回为`200`
 
 ### code_error
+
+有值时来模拟返回接口错误,返回`http`请求status状态码为`200`; 正常返回code码为`00000`, 错误code码为`00003`
