@@ -7,7 +7,7 @@ outline: deep
 
 ```bash
 # 启动sever
-pnpm run server:debug
+pnpm run start:debug
 ```
 
 ```js
