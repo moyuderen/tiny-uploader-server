@@ -10,4 +10,4 @@ $ pnpm run start:debug
 
 ## Useage
 
-[Read document]()
+[Read document](https://github.com/moyuderen/tiny-uploader-uploader/)
