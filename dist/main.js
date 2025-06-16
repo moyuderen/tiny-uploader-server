@@ -24,7 +24,7 @@ async function bootstrap() {
 }
 bootstrap()
     .then(() => {
-    console.log('Running on port 3000 ~');
+    console.log('Running on port 3000.');
 })
     .catch(() => {
     console.log('Running start failed !!!');
