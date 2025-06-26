@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/tiny-uploader-server/',
-  title: 'Tiny Uploader Server',
+  title: '@tinyuploader Server',
   description: '',
   lastUpdated: true,
   themeConfig: {
@@ -12,14 +12,7 @@ export default defineConfig({
     },
 
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: 'Home', link: '/' }],
-
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [{ text: 'Markdown Examples', link: '/markdown-examples' }],
-    //   },
-    // ],
+    // nav: [{ text: 'Home', link: '/cn/index' }],
 
     socialLinks: [
       {
@@ -27,13 +20,33 @@ export default defineConfig({
         link: 'https://github.com/moyuderen/tiny-uploader-server',
       },
     ],
-
-    outline: {
-      level: 'deep',
-      label: 'On this page',
+  },
+  locales: {
+    root: {
+      label: '简体中文',
+      lang: 'zh',
+      link: '/zh/',
+      themeConfig: {
+        nav: [{ text: '主页', link: '/zh/index' }],
+        outline: {
+          level: 'deep',
+          label: '页码',
+        },
+      },
+    },
+    en: {
+      label: 'English',
+      lang: 'en',
+      link: '/en/',
+      themeConfig: {
+        nav: [{ text: 'Home', link: '/en/index' }],
+        outline: {
+          level: 'deep',
+          label: 'On this page',
+        },
+      },
     },
   },
-
   markdown: {
     lineNumbers: true,
   },
