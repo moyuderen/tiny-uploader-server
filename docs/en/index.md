@@ -17,7 +17,7 @@ const BASE_URL = 'http://localhost:3000/file';
 ## Remote mock api request
 
 ```js
-const BASE_URL = 'https://tiny-uploader-server.vercel.app//file';
+const BASE_URL = 'https://tiny-uploader-server.vercel.app/file';
 ```
 
 ## Usage
@@ -63,7 +63,7 @@ axios.get(`${BASE_URL}/check`, {
     "filename": "xxxx-xxxx-xxxx",
     "hash": "xxx.png",
     "status": "part",
-    "data": [0, 2, 4, 6, 8, 10] // 已经上传成功chunk的索引值
+    "data": [0, 2, 4, 6, 8, 10] // already uploaded chunk index, starting from 0
   }
 }
 ```

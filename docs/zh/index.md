@@ -17,7 +17,7 @@ const BASE_URL = 'http://localhost:3000/file';
 ## 远程 mock 接口请求
 
 ```js
-const BASE_URL = 'https://tiny-uploader-server.vercel.app//file';
+const BASE_URL = 'https://tiny-uploader-server.vercel.app/file';
 ```
 
 ## 请求示例
